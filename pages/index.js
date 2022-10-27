@@ -151,7 +151,7 @@ function Greeting(props) {
       <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
       Un des projets qui me rendent fier 
-<span className='text-teal-500'>Blue Moon </span>
+<span className='text-teal-500'> Blue Moon </span>
  C'est une application Desktop pour la Ministère des habous et des affaires islamiques pour la gestion des données, et le projet <span className='text-teal-500'> 
  Apocalypse </span> C'est une application Desktop aussi mais pour les écoles 
     </p>
