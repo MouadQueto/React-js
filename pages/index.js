@@ -19,12 +19,12 @@ export default function Home() {
   const[darkmode,setDarckmode]=useState(false);
 
   function Uselight(props) {
-    return  <BsFillBrightnessHighFill onClick={()=> setDarckmode(!darkmode)} className='cursor-pointer text-2xl'/>;
+    return  <BsFillBrightnessHighFill onClick={()=> setDarckmode(!darkmode)} className='cursor-pointer text-2xl dark:text-white'/>;
 
   }
   
   function Usedarck(props) {
-    return <BsFillMoonStarsFill onClick={()=> setDarckmode(!darkmode)} className='cursor-pointer text-2xl'/>;
+    return <BsFillMoonStarsFill onClick={()=> setDarckmode(!darkmode)} className='cursor-pointer text-2xl dark:text-white'/>;
      
   }
 function Greeting(props) {
