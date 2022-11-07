@@ -58,7 +58,7 @@ function Greeting(props) {
       </nav>
       <div className='text-center p-10'>
      
-        <p className='text-md py-5 leading-3 text-gray-800 dark:text-gray-400'>hi, I'm</p>
+        <p className='text-md py-5 leading-3 text-gray-800 dark:text-gray-400'>Salut, Je Suis</p>
         <h2 className='text-2xl py-2 text-teal-600 font-medium font-exo lg:text-5xl'>
         <Typewriter 
       loop
@@ -68,7 +68,7 @@ function Greeting(props) {
       />
         </h2>
 
-        <h3 className='text-2xl py-2 dark:text-white'>A Web Developer</h3>
+        <h3 className='text-2xl py-2 dark:text-white'>Un Développeur Web</h3>
         <p className='text-md py-5 leading-3 text-gray-800'>#wordpress #java #react #css #html </p>
       </div>
       <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
