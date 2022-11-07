@@ -157,7 +157,9 @@ function Greeting(props) {
     </p>
     <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap '>
 <div className='basis-1/3 flex-1'>
-  <Image className='rounded-lg object-cover' src={web1} layout='responsive' />
+<a href="https://my-hoobank-7chjpxhgn-kidaziro.vercel.app/" target="_blank">
+  <Image className='rounded-lg object-cover cursor-pointer' src={web1} layout='responsive' />
+</a>
 </div>
 <div className='basis-1/3 flex-1'>
   <Image className='rounded-lg object-cover' src={web2} layout='responsive' />
