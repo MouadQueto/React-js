@@ -16,7 +16,7 @@ import {BsFillMoonStarsFill} from "react-icons/bs";
 import web6 from '../public/web6.png'
 import {useState} from 'react'
 export default function Home() {
-  const[darkmode,setDarckmode]=useState(false);
+  const[darkmode,setDarckmode]=useState(true);
 
   function Uselight(props) {
     return  <BsFillBrightnessHighFill onClick={()=> setDarckmode(!darkmode)} className='cursor-pointer text-2xl dark:text-white'/>;
