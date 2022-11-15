@@ -162,7 +162,9 @@ function Greeting(props) {
 </a>
 </div>
 <div className='basis-1/3 flex-1'>
+<a href="https://gym-web-site-sigma.vercel.app/" target="_blank">
   <Image className='rounded-lg object-cover' src={web2} layout='responsive' />
+</a>
 </div>
 <div className='basis-1/3 flex-1'>
   <Image className='rounded-lg object-cover' src={web3} layout='responsive' />
