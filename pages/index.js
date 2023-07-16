@@ -94,14 +94,19 @@ function Greeting(props) {
     <div >
       <h3 className='text-3xl py-1 dark:text-white'>C'est qui Mouad ?</h3>
     <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
-    Salut je m'appele <span className='text-teal-500'>Mouad</span> je suis un devloper qui aime son travail,
-     j'ai un certificat <span className='text-teal-500'>TSDI</span> "Technicien Spécialisé en Développement Informatique", durant mais étude j'ai créé plusieurs projets pour résoudre des problèmes basés sur le langage <span className='text-teal-500'>java</span> connecter
-      avec un system de gestion de données <span className='text-teal-500'>mysql</span> pour faciliter la tâche de triter et  
-    sauvegarder les données, Par ailleurs j'ai aussi créé des sites web e-Com sur la plateforme <span className='text-teal-500'>shopyfay.</span>
+    Salut je m'appele <span className='text-teal-500'>Mouad</span> et je suis un développeur passionné par mon travail.
+    e suis titulaire d'une <span className='text-teal-500'>LICENCE CYBER SECURITY ET INGÉNIERIE IP</span>, ainsi que d'un certificat <span className='text-teal-500'>TSDI</span> "Technicien Spécialisé en Développement Informatique",
+    Cette formation m'a permis d'acquérir de solides compétences en <span className='text-teal-500'>développement logiciel</span> et en <span className='text-teal-500'>sécurité informatique</span>.
+    J'ai créé plusieurs projets innovants durant mes études, basés sur le langage 
+    <span className='text-teal-500'>Java</span> et connectés à des systèmes de gestion de données tels que 
+    <span className='text-teal-500'>MySQL</span>. J'ai également travaillé sur des projets de 
+    <span className='text-teal-500'>cybersécurité</span>,
+     en utilisant des techniques de <span className='text-teal-500'>cryptage</span> et de protection des données pour garantir la confidentialité
+      et l'intégrité des informations. Par ailleurs, j'ai une expérience significative en création de <span className='text-teal-500'> sites web e-Commerce</span>, notamment sur la plateforme <span className='text-teal-500'>Shopyfay</span>.
+       Je suis toujours à la recherche de nouveaux projets et de nouveaux défis pour améliorer mes compétences et contribuer à l'avancement de l'industrie informatique.
+
     </p>
-    <p className='text-gray-800 text-md leading-8 dark:text-gray-400'>
-    J'offre la conception des sites Web, application mobile et application de bureau.
-    </p>
+    
     </div>
     <div className='lg:flex  gap-5'>
 
@@ -167,7 +172,9 @@ function Greeting(props) {
 </a>
 </div>
 <div className='basis-1/3 flex-1'>
+<a href="https://cerberus-web-ruddy.vercel.app/" target="_blank">
   <Image className='rounded-lg object-cover' src={web3} layout='responsive' />
+</a>
 </div>
 <div className='basis-1/3 flex-1'>
   <Image className='rounded-lg object-cover' src={web4} layout='responsive' />
